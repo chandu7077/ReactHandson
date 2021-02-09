@@ -1,14 +1,14 @@
-import "./styles.css";
-import CalculatorScore from "../src/Components/CalculatorScore";
-export default function App() {
+import Contact from "../src/Components/Contact";
+import Home from "../src/Components/Home";
+import About from "../src/Components/About";
+function App() {
   return (
-    <div>
-      <CalculatorScore
-        Name={"Chandu"}
-        School={"Nava Jyothi High School"}
-        Total={576}
-        Goal={6}
-      />
+    <div className="container">
+      <Home />
+      <About />
+      <Contact />
     </div>
   );
 }
+
+export default App;
